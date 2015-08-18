@@ -1,0 +1,143 @@
+#select_city{
+	width: 200px;
+	color: black;
+	min-height: 10px;
+	padding: 10px;
+}
+
+.select2-results__option {
+	color: black !important
+}
+
+.transparent{
+background-repeat: no-repeat;
+z-index:1000;
+}
+
+.niagara {
+background-image: url('../img/niagara1.jpg');
+/*opacity: 0.4;
+filter: alpha(opacity=40); // For IE8 and earlier*/ 
+}
+
+
+.toronto {
+background-image: url('../img/toronto1.jpg');
+}
+.ottawa{
+background-image: url('../img/ottawa1.jpg');
+}
+.calgary{
+background-image: url('../img/calgary1.jpg');
+}
+.montreal{
+background-image: url('../img/montreal1.jpg');
+}
+.newyork{
+background-image: url('../img/newyork1.jpg');
+}
+.boston{
+background-image: url('../img/boston1.jpg');
+}
+.chicago{
+background-image: url('../img/chicago1.jpg');
+}
+.philadelphia{
+background-image: url('../img/philadelphia1.jpg');
+}
+
+.big_title {
+	font-size: 40px;
+	color: #FFDE00;
+	font-weight: 700;
+}
+
+#trips{
+	background-color: #FFD3E5; /*#F7819F;*/
+}
+
+video { 
+   /* position: fixed;*/
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+	transition: 1s opacity;
+}
+
+#video-container {
+	position: absolute;
+}
+#video-container {
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+
+#home{
+	/* https://www.flickr.com/photos/3336/157412508/in/photolist-eUMfL-qG5kJW-dnpWJS-b4Mkip-b3qRUt-gVb6Pm-pTAos2-4Z7mB6-9yEAn-fn41Wf-mZU9d2-8LMc5L-fqXjCn-fjwbq-eW5Fvn-5sxhLt-ot1Pxa-6d3tzD-8bzf1q-7iXSCK-ddV5HG-e6apgE-bFdPgt-6yNSWS-7Vga1-5SrQkv-b4M7ae-amv9gq-aBAk1L-84bogw-7kkdoZ-4XDZAc-h4trPF-zhe21-nziGgs-8dJq1F-rZ4gDQ-kMe98-ERYHv-BdPta-rBur6C-oq8gWr-73eBCG-9hnJ2b-aashHE-5t7fv9-6SMTax-6K9LCT-iL3KsU-69SGVW */
+	background-image: url("../img/157412508_9a3c2fa948_o.jpg");
+	background-size:cover;
+	color: black;
+}
+
+
+#grid{
+	background-color: #81DAF5;
+	color: black;
+}
+
+#work{
+	background-color: #E0E0F8;
+}
+
+#detail{
+	background-color: #81DAF5;
+}
+
+#team, #contact{
+	color: grey;
+}
+
+.trip_detail  {
+	color: black;
+}
+
+.icons {
+	margin-right: 7px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	color: #A83874 !important;
+}
+
+.navbar-inverse {
+  background-color: rgba(57, 171, 111,0.8) !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  border-bottom: 1px solid #A83874 !important;
+}
+
+.panel-body{
+	color: #A83845/*rgb(57, 171, 111);*/ !important;
+	
+}
+
+#tripDetails
+{
+	background-color: #CEE9DE;
+}
+
+#order_container
+{
+	float:right;
+}

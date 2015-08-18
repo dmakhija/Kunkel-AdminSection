@@ -1,0 +1,163 @@
+/*!
+ * Kunkel bus tours - Admin Panel Custom CSS
+ */
+ 
+ .hide {
+    display: none;
+}
+
+#footer {
+    width: 100%;
+}
+
+.footer-div{
+	text-align: center !important;
+	padding: 20px 0px 0px 0px;
+}
+
+.btn-margin
+{
+	margin: 0px 10px 10px 0px !important;
+}
+
+.asterik{
+	
+	color: red !important;
+	font-weight: bold !important;
+	font-size:16 px !important;
+	
+}
+
+.form-error{	
+	color: red !important;
+	font-size:14px !important;
+}
+
+.form-control{
+	color: #000000 !important;
+}
+
+.form-group
+{
+	margin-bottom: 15px !important;
+}
+.inactive-row
+{
+	background-color: #e9e9e9 !important;
+}
+
+.margin
+{
+	margin-right: 15px;
+}
+
+.destinationlist{	
+    
+    /*display: block;
+     width: 100%; */
+    height: 35px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;      
+}
+.disabled-color{
+	background-color: #eee !important;
+	opacity: 1 !important;
+	
+}
+
+.logo
+{
+	height: 50px ! important;
+	margin-top: -10px;
+}
+
+.tinyMCE
+{
+	width: 100%;
+}
+
+.panel-purple {
+    border-color: #8775a7;
+}
+
+.panel-purple .panel-heading {
+    border-color: #8775a7;
+    color: #fff;
+    background-color: #8775a7;
+}
+
+.panel-purple a {
+    color: #8775a7;
+}
+
+.panel-purple a:hover {
+    color: #61517f;
+}
+
+.panel-pink {
+    border-color: #F778A1;
+}
+
+.panel-pink .panel-heading {
+    border-color: #F778A1;
+    color: #fff;
+    background-color: #F778A1;
+}
+
+.panel-pink a {
+    color: #F778A1;
+}
+
+.panel-pink a:hover {
+    color: #A72851;
+}
+
+.panel-brown {
+    border-color: #C19A6B;
+}
+
+.panel-brown .panel-heading {
+    border-color: #C19A6B;
+    color: #fff;
+    background-color: #C19A6B;
+}
+
+.panel-brown a {
+    color: #C19A6B;
+}
+
+.panel-brown a:hover {
+    color: #714A1B;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#uploadFile
+{
+	height: 35px;
+}

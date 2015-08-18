@@ -1,0 +1,38 @@
+Options -Indexes
+Options +FollowSymLinks
+
+# Set the default file for indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+
+    # activate URL rewriting
+    RewriteEngine on
+	RewriteBase /KunkelBusTours/
+
+	# Checks to see if the user is attempting to access a valid file,
+  # such as an image or css document, if this isn't true it sends the
+  # request to index.php  
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+  
+  
+  # This condition enables access to the images and css folders, and the robots.txt file
+    # do not rewrite links to the documentation, assets and public files
+    RewriteCond $1 !^(images|uploads|captcha)
+	
+    # do not rewrite for php files in the document root, robots.txt or the maintenance page
+    RewriteCond $1 !^([^\..]+\.php|robots\.txt)
+
+    # but rewrite everything else
+    RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+
+    # If we don't have mod_rewrite installed, all 404's
+    # can be sent to index.php, and everything works as normal.
+
+    ErrorDocument 404 index.php
+
+</IfModule>  
